@@ -52,6 +52,7 @@ padding: 0 ;
 width: 80%;
 text-align: center;
 position: fixed;
+font-size: 30px;
 }
 nav li{
 display: table-cell;

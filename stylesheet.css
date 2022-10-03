@@ -73,30 +73,11 @@ border-bottom: 3px solid #F0E475;
 
 
 
-.submain ul {
-  margin: 0 0 30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+submain {
+ flex-wrap: wrap;
 }
 
-.submain ul li {
-  width: 100px;           /* 各コンテンツの横幅 */
-  border: 1px solid #000; /* 各コンテンツのborder */
-  padding: 10px;          /* 余白の指定 */
-  display: flex;          /* 【重要】フレックスボックスにする */
-  flex-direction: column; /* 【重要】縦並びにする */
-}
-
-.submain ul li .text {
-  background: #ccc;       /* 背景色にグレーを指定 */
-  margin: 0 0 10px;       /* 下に10pxの余白 */
-  padding: 5px;           /* 余白5pxを指定 */
-}
-
-.submain ul li .btn {
-  border: 1px solid #000; /* borderを指定 */
-  border-radius: 20px;    /* 角丸にする */
-  text-align: center;     /* 文字を中央寄せ */
-  margin-top: auto;       /* 【重要】上に取れるだけの余白 */
+submain div.animal {
+  width: calc(33.3% - 10px);
+  margin: 5px;
 }

@@ -73,40 +73,17 @@ border-bottom: 3px solid #F0E475;
 
 
 
-.cards { /* align-itemsはデフォルトでstretchだけどわかりやすさのため明記 */
-  align-items: stretch;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 300px;
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 0;
+    padding-top: 30px;
 }
-
-.card {
-  background-color: #f00;
-  /* flexboxをcolumnで使う */
-  display: flex;
-  flex-direction: column;
-  width: 32%;
+.item {
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 30px;
+    padding: 50px 10px;
+    text-align: center;
 }
-
-.card figure {
-  margin: 0;
-}
-
-.card img {
-  width: 100%;
-}
-
-.btn {
-  background-color: #0f0;
-  display: block;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  /* margin-topをautoにすることで、自動的に高さを調節してもらえる */
-  margin-top: auto;
-  padding: 0;
-  text-align: center;
-  width: 60%;
-}
-

@@ -84,6 +84,15 @@ div{
 text-align:center;
 }
 
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+  
 
 .text-contents {
   width: 80%;

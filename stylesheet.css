@@ -113,8 +113,9 @@ color: #191970;
 
 footer {
   padding: 2px 0;
-  color: #000000;
+  color: #ffffff;
   font-size: 0.8rem;
   text-align: center;
-  background-color: #f5f5dc;
+   background-image: url(coffee-copy.jpg);
+  background-size: cover;
 }

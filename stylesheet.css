@@ -63,7 +63,7 @@ width: 100%;
 text-decoration: none;
 color: #FFE4E1;
 padding-bottom: 5px;
-font-size: 30px;
+font-size: 20px;
 }
 nav li.current{
 border-bottom: 3px solid #92D050;
@@ -83,11 +83,16 @@ border-bottom: 3px solid #F0E475;
     
 }
  
-.box01 .item {
+.box01 .item {;
     border: solid 1px #000;
     margin: 5px;
     padding: 5px;
     width: 100px;
     text-align: center;
-    font-family: "sans-serif";
+    
+}
+
+.box01 .item  a {
+font-family: "sans-serif";
+color: #191970;
 }

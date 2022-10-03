@@ -74,6 +74,12 @@ border-bottom: 3px solid #F0E475;
 }
 
 
+.main {
+   background-image: url(img.jpeg);
+    background-size: cover;
+}
+
+
 
 .box01 {
     display: flex;

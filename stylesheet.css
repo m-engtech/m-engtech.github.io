@@ -84,16 +84,7 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
 
-
-.header-left {
-  float: left;
-  margin-right: -25px;
-}
 
 .header-left a {
   line-height: 65px;
@@ -104,7 +95,7 @@ header {
   transition: all 0.5s;
 }
 
-.header-right a:hover {
+.header-left a:hover {
   background-color: rgba(255,255,255,0.3);
 }
 

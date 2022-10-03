@@ -92,6 +92,13 @@ header {
   width: 25%;
 }
 
+div{
+display: flex;
+justify-content: center;
+
+}
+
+
 .lesson-icon {
   position: relative;
 }

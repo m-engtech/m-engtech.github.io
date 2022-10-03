@@ -68,40 +68,33 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+.item-list {
+  display: flex;
+  justify-content: space-between;
 }
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+.item-list .item {
+  width: 31%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.heading h2 {
-  font-weight: normal;
+.item-list .item .image {
+  margin: 0;
+  padding: 0;
 }
-
-.lesson {
-  float: left;
-  width: 25%;
+.item-list .item .image img {
+  width: 100%;
 }
-
-div{
-display: flex;
-justify-content: center;
-
+.item-list .item .title {
+  margin: 10px 0 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
 }
-
-
-.lesson-icon {
-  position: relative;
-}
+.item-list .item .description {
+  margin: 5px 0 0;
+  padding: 0;
+  font-size: 16px;
 
 .lesson　btn message {
  float:left

@@ -68,38 +68,15 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.item-list {
-  display: flex;
-  justify-content: space-between;
+
+
+.lesson　btn message{
+display:inline-block;/*コレ*/
 }
-.item-list .item {
-  width: 31%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.item-list .item .image {
-  margin: 0;
-  padding: 0;
-}
-.item-list .item .image img {
-  width: 100%;
-}
-.item-list .item .title {
-  margin: 10px 0 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 20px;
-}
-.item-list .item .description {
-  margin: 5px 0 0;
-  padding: 0;
-  font-size: 16px;
+div{
+text-align:center;
 }
 
-.lesson　btn message {
- float:left
-}
 
 .text-contents {
   width: 80%;

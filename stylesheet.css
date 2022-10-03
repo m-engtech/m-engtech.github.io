@@ -76,7 +76,6 @@ border-bottom: 3px solid #F0E475;
 
 
 .centermain  {
-  padding: 160px 0 100px 0;
    background-image: url(img.jpeg);
     background-size: cover;
   text-align: center;
@@ -111,7 +110,7 @@ color: #191970;
 
 
 
-footer {
+.footer {
   padding: 2px 0;
   color: #ffffff;
   font-size: 0.8rem;

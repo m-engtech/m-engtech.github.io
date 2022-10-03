@@ -44,6 +44,7 @@ header {
   height: 65px;
   width: 100%;
   background-color: #black;
+  color: #fff;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -53,7 +54,7 @@ header {
   float: left;
   font-size: 36px;
   padding: 20px 40px;
-  color: #white;
+ 
 }
 
 
@@ -62,7 +63,7 @@ header {
   /* 以下の2行を削除してください */
   float: left;
   padding: 33px 40px;
-  color: #white;
+
   
 }
 

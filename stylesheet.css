@@ -89,16 +89,13 @@ header {
   margin-top: 20px;
 }
 
+
 .header-left {
   float: left;
-}
-
-.header-right {
-  float: right;
   margin-right: -25px;
 }
 
-.header-right a {
+.header-left a {
   line-height: 65px;
   padding: 0 25px;
   color: white;

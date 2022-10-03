@@ -80,6 +80,8 @@ border-bottom: 3px solid #F0E475;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url(img.jpeg);
+    background-size: cover;
     
 }
  

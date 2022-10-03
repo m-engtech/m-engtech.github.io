@@ -73,11 +73,12 @@ border-bottom: 3px solid #F0E475;
 
 
 
-submain {
+footer {
  flex-wrap: wrap;
+ 
 }
 
-submain div.animal {
+footer div.useful {
   width: calc(33.3% - 10px);
   margin: 5px;
 }

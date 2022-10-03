@@ -53,15 +53,17 @@ header {
   float: left;
   font-size: 36px;
   padding: 20px 40px;
+  color: #white
 }
 
 
-
-ul {
+.header-list ul {
   list-style: none;
   /* 以下の2行を削除してください */
   float: left;
-  padding: 33px 20px;
+  padding: 33px 40px;
+  color: #white
+  
 }
 
 .lesson-wrapper {

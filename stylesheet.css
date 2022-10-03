@@ -73,17 +73,30 @@ border-bottom: 3px solid #F0E475;
 
 
 
-.contents {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 60%;
-    margin: 30px 0;
-    padding-top: 30px;
+.submain ul {
+  margin: 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.item {
-    width: calc(100% / 3 - 30px);
-    margin-bottom: 30px;
-    padding: 50px 10px;
-    text-align: center;
+
+.submain ul li {
+  width: 200px;           /* 各コンテンツの横幅 */
+  border: 1px solid #000; /* 各コンテンツのborder */
+  padding: 10px;          /* 余白の指定 */
+  display: flex;          /* 【重要】フレックスボックスにする */
+  flex-direction: column; /* 【重要】縦並びにする */
+}
+
+ul li .text {
+  background: #ccc;       /* 背景色にグレーを指定 */
+  margin: 0 0 10px;       /* 下に10pxの余白 */
+  padding: 5px;           /* 余白5pxを指定 */
+}
+
+ul li .btn {
+  border: 1px solid #000; /* borderを指定 */
+  border-radius: 20px;    /* 角丸にする */
+  text-align: center;     /* 文字を中央寄せ */
+  margin-top: auto;       /* 【重要】上に取れるだけの余白 */
 }

@@ -15,7 +15,7 @@ a {
 
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 160px 0 100px 0;
   background-image: url(coffee-copy.jpg);
   background-size: cover;
   color: white;
@@ -76,8 +76,10 @@ border-bottom: 3px solid #F0E475;
 
 
 .centermain  {
+  padding: 160px 0 100px 0;
    background-image: url(img.jpeg);
     background-size: cover;
+  
 }
 
 

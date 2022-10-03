@@ -73,12 +73,15 @@ border-bottom: 3px solid #F0E475;
 
 
 
-footer {
- flex-wrap: wrap;
- 
+.box01 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-footer div.useful {
-  width: calc(33.3% - 10px);
-  margin: 5px;
+ 
+.box01 .item {
+    border: solid 1px #000;
+    margin: 5px;
+    padding: 5px;
+    width: 31%;
 }

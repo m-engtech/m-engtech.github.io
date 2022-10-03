@@ -81,7 +81,7 @@ header {
   transition:0.1s;
 }
 
-.header-right:hover {
+.header-left:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 

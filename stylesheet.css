@@ -33,20 +33,10 @@ a {
 }
 
 .main {
-  padding: 180px 0 100px 0;
-  color: #000000;
-  text-align: center;
-}
-
-.under-wrapper h1 {
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-	
-.heading {
   padding-top: 60px;
   padding-bottom: 30px;
   color: #5f5d60;
+
 }
 
 

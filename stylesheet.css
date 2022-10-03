@@ -96,11 +96,8 @@ header {
   position: relative;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
+.lesson　btn message {
+ float:left
 }
 
 .text-contents {

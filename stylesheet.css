@@ -57,22 +57,11 @@ header {
 
 
 
-.header-left {
+ul {
+  list-style: none;
+  /* 以下の2行を削除してください */
   float: left;
-  background-color: #black;
-  transition: all 0.5s;
-}
-
-.header-left:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-left a {
-  float:left
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
+  padding: 33px 20px;
 }
 
 .lesson-wrapper {
